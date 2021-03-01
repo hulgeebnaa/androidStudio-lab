@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".lab4">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="608dp"
+        android:layout_height="242dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E91E63"
+                android:contentDescription="@string/fb"
+                android:scaleType="fitXY"
+                android:src="@drawable/fb2"
+                tools:srcCompat="@drawable/fb2" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="202dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E91E63"
+                android:contentDescription="@string/ig"
+                android:scaleType="fitXY"
+                android:src="@drawable/ig2"
+                tools:background="#E91E63"
+                tools:srcCompat="@drawable/ig2" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="202dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E91E63"
+                android:contentDescription="@string/tw"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tw" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#E91E63"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_bold_italic"
+                android:gravity="center"
+                android:text="@string/t1"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="196dp"
+                    android:layout_height="match_parent"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:fontFamily="@font/nunito_sans_bold_italic"
+                    android:hint="@string/t2"
+                    android:inputType="textPersonName"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    tools:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:fontFamily="@font/nunito_sans_bold_italic"
+                    android:hint="@string/t3"
+                    android:importantForAutofill="no"
+                    android:inputType="textPersonName"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="18sp"
+                    android:background="@android:color/transparent"
+                    tools:textColorHighlight="#FFFFFF" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="163dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="103dp">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="73dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/todo"
+                        app:srcCompat="@android:drawable/ic_dialog_email"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPersonName8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="@font/nunito_sans_bold_italic"
+                        android:hint="@string/t4"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textSize="18sp"
+                        tools:hint="Мейл хаяг" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="103dp">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="88dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/todo"
+                        app:srcCompat="@android:drawable/stat_sys_phone_call"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPersonName5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="@font/nunito_sans_bold_italic"
+                        android:hint="@string/t5"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="73dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/todo"
+                        app:srcCompat="@android:drawable/ic_dialog_alert"
+                        tools:srcCompat="@tools:sample/avatars" />
+
+                    <EditText
+                        android:id="@+id/editTextTextPersonName9"
+                        android:layout_width="294dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="@font/nunito_sans_bold_italic"
+                        android:hint="@string/t7"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:textColor="#FFFFFF"
+                        android:textColorHint="#FFFFFF"
+                        android:textSize="18sp"
+                        tools:hint="Нууц үг" />
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/burtguulegBtn"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:background="#FFFFFF"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:rotationX="4"
+                android:text="@string/t6"
+                android:textSize="18sp"
+                app:backgroundTint="#F44336"
+                tools:background="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
