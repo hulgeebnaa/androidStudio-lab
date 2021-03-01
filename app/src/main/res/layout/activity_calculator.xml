@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_black_italic"
         android:rotationX="4"
-        android:text="@string/laboratory_3"
+        android:text="@string/calculator"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#D7FFFFFF"
