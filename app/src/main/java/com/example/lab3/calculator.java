@@ -32,33 +32,21 @@ Float answer;
         number1 = (EditText) findViewById(R.id.number1);
         number2 = (EditText) findViewById(R.id.number2);
 
-        btnnemeh.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                answer = Float.parseFloat(String.valueOf(number1.getText())) + Float.parseFloat(String.valueOf(number2.getText()));
-                hariu.setText(String.valueOf(answer));
-            }
+        btnnemeh.setOnClickListener(v -> {
+            answer = Float.parseFloat(String.valueOf(number1.getText())) + Float.parseFloat(String.valueOf(number2.getText()));
+            hariu.setText(String.valueOf(answer));
         });
-        btnhasah.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                answer = Float.parseFloat(String.valueOf(number1.getText())) - Float.parseFloat(String.valueOf(number2.getText()));
-                hariu.setText(String.valueOf(answer));
-            }
+        btnhasah.setOnClickListener(v -> {
+            answer = Float.parseFloat(String.valueOf(number1.getText())) - Float.parseFloat(String.valueOf(number2.getText()));
+            hariu.setText(String.valueOf(answer));
         });
-        btnurjih.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                answer = Float.parseFloat(String.valueOf(number1.getText())) * Float.parseFloat(String.valueOf(number2.getText()));
-                hariu.setText(String.valueOf(answer));
-            }
+        btnurjih.setOnClickListener(v -> {
+            answer = Float.parseFloat(String.valueOf(number1.getText())) * Float.parseFloat(String.valueOf(number2.getText()));
+            hariu.setText(String.valueOf(answer));
         });
-        btnhuvaah.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                answer = Float.parseFloat(String.valueOf(number1.getText())) / Float.parseFloat(String.valueOf(number2.getText()));
-                hariu.setText(String.valueOf(answer));
-            }
+        btnhuvaah.setOnClickListener(v -> {
+            answer = Float.parseFloat(String.valueOf(number1.getText())) / Float.parseFloat(String.valueOf(number2.getText()));
+            hariu.setText(String.valueOf(answer));
         });
         btnclear.setOnClickListener(new View.OnClickListener(){
             @Override

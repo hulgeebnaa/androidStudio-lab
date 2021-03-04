@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab3">
-        <activity android:name=".lab4"></activity>
+        <activity android:name=".lab52dahi"></activity>
+        <activity android:name=".lab5" />
+        <activity android:name=".lab4" />
         <activity android:name=".Option" />
         <activity android:name=".MainActivity">
             <intent-filter>
