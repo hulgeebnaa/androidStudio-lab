@@ -12,7 +12,7 @@ public class lab52dahi extends AppCompatActivity {
     Button btnilgeeh2;
     TextView msg2;
     EditText bichihtext2;
-    String conversation2;
+    String conversation2 = " ";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,21 +26,21 @@ public class lab52dahi extends AppCompatActivity {
         msg2 = (TextView) findViewById(R.id.msg2);
         bichihtext2 = (EditText) findViewById(R.id.bichih2);
         Intent intent = getIntent();
-        String conversation1 = intent.getStringExtra("conversation1");
-
-        conversation2 = conversation1 + msg2.getText().toString() + "/nUser2:" + bichihtext2.getText().toString();
-        btnilgeeh2.setOnClickListener(v -> ilgeeh2(conversation2));
+        String conversation1 = "" + intent.getStringExtra("conversation1");
+        msg2.setText(conversation1);
+        btnilgeeh2.setOnClickListener(v -> ilgeeh2(conversation1));
     }
-
     private void ilgeeh2(String updatedtext) {
+        write(read(updatedtext));
+    }
+    private void write(String updatedtext){
         Intent intent = new Intent(lab52dahi.this, lab5.class);
-        intent.putExtra("conversation1",updatedtext);
+        intent.putExtra("conversation2",updatedtext);
+        bichihtext2.setText(" ");
         startActivity(intent);
     }
-    private void write(){
-
-    }
-    private void read(){
-
+    private String read(String conversation1){
+        conversation2 = conversation1 + "\nUser-2 : " + bichihtext2.getText().toString();
+        return conversation2;
     }
 }
