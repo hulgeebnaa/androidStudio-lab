@@ -24,6 +24,8 @@ public class Option extends AppCompatActivity {
         Button lab4 = (Button) findViewById(R.id.welcome5);
         Button lab5 = (Button) findViewById(R.id.lab5);
         Button lab5btn = (Button) findViewById(R.id.lab5btn);
+        Button lab6menu = (Button) findViewById(R.id.lab6menu);
+        Button lab6noti = (Button) findViewById(R.id.lab6noti);
         lab2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,6 +49,8 @@ public class Option extends AppCompatActivity {
         });
         lab5.setOnClickListener(v -> lab5click());
         lab5btn.setOnClickListener(v -> lab5btnclick());
+        lab6menu.setOnClickListener(v -> lab6menu());
+        lab6noti.setOnClickListener(v -> lab6noti());
     }
 
     private void lab5click() {
@@ -55,6 +59,14 @@ public class Option extends AppCompatActivity {
     }
     private void lab5btnclick() {
         Intent intent = new Intent(Option.this, lab5_btn.class);
+        startActivity(intent);
+    }
+    private void lab6menu() {
+        Intent intent = new Intent(Option.this, lab6n1.class);
+        startActivity(intent);
+    }
+    private void lab6noti() {
+        Intent intent = new Intent(Option.this, lab6n2.class);
         startActivity(intent);
     }
 }

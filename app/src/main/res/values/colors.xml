@@ -8,5 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="sharkov">#F44336</color>
-
+    <color name="red">#CD1515</color>
+    <color name="blue">#2298F6</color>
+    <color name="green">#4CAF50</color>
+    <color name="background">#E91E63</color>
 </resources>
