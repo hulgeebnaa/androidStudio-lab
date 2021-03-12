@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="169dp"
+        android:layout_height="44dp"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
         android:text="@string/lab2_calculator"
@@ -118,6 +118,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.535" />
+
+    <Button
+        android:id="@+id/lab7n1"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="lab7-DatePicker"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606" />
 
     <TextView
         android:id="@+id/textView6"

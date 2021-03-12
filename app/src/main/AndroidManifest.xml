@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab3">
-        <activity android:name=".lab6n2n2"></activity>
+        <activity android:name=".lab7n1"></activity>
+        <activity android:name=".lab6n2n2" />
         <activity android:name=".lab6n2" />
         <activity android:name=".lab6n1" />
         <activity android:name=".lab5_btn" />
