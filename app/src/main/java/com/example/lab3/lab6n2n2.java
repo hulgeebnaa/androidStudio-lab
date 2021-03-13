@@ -24,7 +24,7 @@ public class lab6n2n2 extends AppCompatActivity {
     }
     private void actionBarCustomize(ActionBar actionBar){
         actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.background)));
-        actionBar.setTitle(" Welcome!");
+        actionBar.setTitle(" Laboratory-6-2");
         actionBar.setIcon(R.drawable.ic_action_bar_swim);
         actionBar.setDisplayUseLogoEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);

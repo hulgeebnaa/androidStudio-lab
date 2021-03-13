@@ -135,6 +135,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.606" />
 
+    <Button
+        android:id="@+id/lab7n2"
+        android:layout_width="168dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="lab7-WebViewer"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
