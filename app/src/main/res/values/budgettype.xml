@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="budgetypeitems">
+        <item>Шилжүүлэг</item>
+        <item>Зээл</item>
+        <item>Түрээс</item>
+        <item>Хоол, хүнс</item>
+        <item>Эрүүл мэнд</item>
+        <item>Боловсрол</item>
+        <item>Амралт, чөлөөт цаг</item>
+        <item>Бусад</item>
+    </string-array>
+
+</resources>

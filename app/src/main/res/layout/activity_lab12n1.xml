@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".lab12n1">
+
+    <Button
+        android:id="@+id/playservice"
+    android:layout_width="241dp"
+    android:layout_height="108dp"
+    android:layout_gravity="center"
+    android:text="Play service" />
+    <Button
+        android:id="@+id/stopservice"
+        android:layout_width="241dp"
+        android:layout_height="108dp"
+        android:layout_gravity="center"
+        android:text="Stop service" />
+
+</LinearLayout>

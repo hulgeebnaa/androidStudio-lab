@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".lab12n2">
+    <TextView
+        android:id="@+id/process1txt"
+        android:layout_width="wrap_content"
+        android:text="Process 1 : 10%"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"/>
+    <SeekBar
+        android:id="@+id/process1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:progress="10"
+        android:outlineAmbientShadowColor="@color/purple_200"/>
+    <TextView
+        android:id="@+id/process2txt"
+        android:layout_width="wrap_content"
+        android:text="Process 2 : 30%"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:layout_height="wrap_content"/>
+    <SeekBar
+        android:id="@+id/process2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:progress="30"
+        android:outlineAmbientShadowColor="@color/purple_200"/>
+    <Button
+        android:id="@+id/threadStart"
+        android:layout_width="241dp"
+        android:layout_height="108dp"
+        android:textSize="25dp"
+        android:backgroundTint="@color/sharkov"
+        android:layout_gravity="center"
+        android:text="THREAD START" />
+</LinearLayout>

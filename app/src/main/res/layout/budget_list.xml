@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/budgetid"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="80"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white" />
+    <TextView
+        android:id="@+id/budgetdesc"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="80"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white" />
+
+    <TextView
+        android:id="@+id/budgetName"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="80"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white" />
+
+    <TextView
+        android:id="@+id/incomeExpense"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="80"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white" />
+
+    <TextView
+        android:id="@+id/budgetValue"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="80"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white" />
+</LinearLayout>
