@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--    <TextView-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/tvFirst"/>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:id="@+id/studentlistview"/>
+<!--    <TextView-->
+<!--        android:layout_width="106dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/studentphonelistview"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="106dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/studentlastnamelistview"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/tvMail"/>-->
+</LinearLayout>

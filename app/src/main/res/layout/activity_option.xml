@@ -9,104 +9,24 @@
 
     <Button
         android:id="@+id/lab11"
-        android:layout_width="166dp"
-        android:layout_height="43dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
-        android:text="lab11-TabLayout"
+        android:text="lab11-TabLay"
         android:textSize="12sp"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
-
-    <Button
-        android:id="@+id/lab8n2"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/nunito_sans_bold"
-        android:rotationX="17"
-        android:text="lab8-CustomAdapt"
-        android:textSize="12sp"
-        app:backgroundTint="#FF9800"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811" />
-
-    <Button
-        android:id="@+id/lab9"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/nunito_sans_bold"
-        android:rotationX="17"
-        android:text="lab9-Battery"
-        android:textSize="12sp"
-        app:backgroundTint="#FF9800"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.881" />
-
-    <Button
-        android:id="@+id/lab10"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/nunito_sans_bold"
-        android:rotationX="17"
-        android:text="lab10-Navigation"
-        android:textSize="12sp"
-        app:backgroundTint="#FF9800"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951" />
-
-    <Button
-        android:id="@+id/welcome"
-        android:layout_width="169dp"
-        android:layout_height="44dp"
-        android:fontFamily="@font/nunito_sans_bold"
-        android:rotationX="17"
-        android:text="@string/lab2_calculator"
-        android:textSize="12sp"
-        app:backgroundTint="#FF9800"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.129"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
-
-    <Button
-        android:id="@+id/welcome2"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/nunito_sans_bold"
-        android:rotationX="17"
-        android:text="@string/lab3_animal"
-        android:textSize="12sp"
-        app:backgroundTint="#FF9800"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178" />
+        app:layout_constraintVertical_bias="0.302" />
 
     <Button
         android:id="@+id/lab12n1"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
         android:text="Lab12-Service"
@@ -114,79 +34,31 @@
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.177" />
-
-    <Button
-        android:id="@+id/welcome5"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/nunito_sans_bold"
-        android:rotationX="17"
-        android:text="@string/lab4_layout"
-        android:textSize="12sp"
-        app:backgroundTint="#FF9800"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.383" />
 
     <Button
         android:id="@+id/lab12n2"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
-        android:text="lab12-ui thread"
+        android:text="lab12-uithre"
         android:textSize="12sp"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
-
-    <Button
-        android:id="@+id/lab13"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/nunito_sans_bold"
-        android:rotationX="17"
-        android:text="lab13-Sanhuu"
-        android:textSize="12sp"
-        app:backgroundTint="#FF9800"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319" />
-
-    <Button
-        android:id="@+id/lab14"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
-        android:fontFamily="@font/nunito_sans_bold"
-        android:rotationX="17"
-        android:text="lab14-Firebase"
-        android:textSize="12sp"
-        app:backgroundTint="#FF9800"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389" />
+        app:layout_constraintVertical_bias="0.464" />
 
     <Button
         android:id="@+id/lab15"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
         android:text="lab15-Http"
@@ -194,63 +66,79 @@
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintVertical_bias="0.707" />
 
     <Button
-        android:id="@+id/lab5"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:id="@+id/lab14"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
-        android:text="lab5-chat"
+        android:text="lab14-Firebase"
         android:textSize="12sp"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintVertical_bias="0.626" />
 
     <Button
-        android:id="@+id/lab5btn"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:id="@+id/lab13"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
-        android:text="lab5-Button"
+        android:text="lab13-Sanhuu"
         android:textSize="12sp"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389" />
+        app:layout_constraintVertical_bias="0.545" />
 
     <Button
-        android:id="@+id/lab6menu"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:id="@+id/lab9"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
-        android:text="lab6-Menu"
+        android:text="lab9-Battery"
         android:textSize="12sp"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.459" />
+        app:layout_constraintVertical_bias="0.14" />
+
+    <Button
+        android:id="@+id/lab10"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="lab10-Navigat"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.221" />
 
     <Button
         android:id="@+id/lab6noti"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
         android:text="lab6-Notifi"
@@ -258,58 +146,170 @@
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+        app:layout_constraintVertical_bias="0.626" />
 
     <Button
-        android:id="@+id/lab7n1"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:id="@+id/welcome5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
-        android:text="lab7-DatePicker"
+        android:text="@string/lab4_layout"
         android:textSize="12sp"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.302" />
+
+    <Button
+        android:id="@+id/welcome2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="@string/lab3_animal"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
 
     <Button
         android:id="@+id/lab7n2"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
-        android:text="lab7-WebViewer"
+        android:text="lab7-WebView"
         android:textSize="12sp"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.67" />
+        app:layout_constraintVertical_bias="0.788" />
+
+    <Button
+        android:id="@+id/lab8n2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="lab8-CustADPT"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <Button
+        android:id="@+id/lab5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="lab5-chat"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+    <Button
+        android:id="@+id/welcome"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="LAB2-Calc"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14" />
+
+    <Button
+        android:id="@+id/lab5btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="lab5-Button"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
 
     <Button
         android:id="@+id/lab8n1"
-        android:layout_width="168dp"
-        android:layout_height="48dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/nunito_sans_bold"
         android:rotationX="17"
-        android:text="lab8-AdapterView"
+        android:text="lab8-AdptView"
         android:textSize="12sp"
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.74" />
+        app:layout_constraintVertical_bias="0.878" />
+
+    <Button
+        android:id="@+id/lab6menu"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="lab6-Menu"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <Button
+        android:id="@+id/lab7n1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans_bold"
+        android:rotationX="17"
+        android:text="lab7-DatePick"
+        android:textSize="12sp"
+        app:backgroundTint="#FF9800"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.707" />
 
     <TextView
         android:id="@+id/textView6"

@@ -75,6 +75,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 " = '" + budgettype + "', " + KEY_BUDGETDESC + " = '" + budgetdesc + "', " +KEY_BUDGETVALUE + " = '" + budgetvalue + "' WHERE " + KEY_ROWID + " = '" + id + "';";
         db.execSQL(query);
     }
+    
     public void delete(String id){
         SQLiteDatabase db = this.getWritableDatabase();
         String query = "DELETE FROM " + TABLE_NAME + " WHERE " + KEY_ROWID + " = '" + id + "';";

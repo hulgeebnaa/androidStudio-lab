@@ -1,9 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/background"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".lab14">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Оюутны овог"
+        android:textColorHint="#A4B5C1"
+        android:nextFocusDown="@id/lastName"
+        android:textColor="@color/white"
+        android:background="#E91E63"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:inputType="textCapSentences"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Оюутны нэр"
+        android:background="#E91E63"
+        android:textSize="16dp"
+        android:textColorHint="#A4B5C1"
+        android:inputType="textCapSentences"
+        android:textColor="@color/white"
+        android:nextFocusDown="@id/studentCode"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/studentCode"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:hint="Оюутны код"
+        android:textColorHint="#A4B5C1"
+        android:background="#E91E63"
+        android:textAllCaps="true"
+        android:nextFocusDown="@id/studentEmail"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/studentEmail"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Оюутны мэйл"
+        android:inputType="textEmailAddress"
+        android:textSize="16dp"
+        android:background="#E91E63"
+        android:textColorHint="#A4B5C1"
+        android:nextFocusDown="@id/studentPhone"
+        android:padding="10dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/studentPhone"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:hint="Оюутны утас"
+        android:padding="10dp"
+        android:background="#E91E63"
+        android:inputType="numberSigned"
+        android:nextFocusDown="@id/save"
+        android:textColorHint="#A4B5C1"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/sharkov"
+        android:nextFocusUp="@id/firstName"
+        android:text="Бүртгэх"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:listSelector="@color/purple_200"
+                android:id="@+id/lab14listview"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

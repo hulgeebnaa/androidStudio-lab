@@ -89,6 +89,7 @@ public class lab13 extends AppCompatActivity {
         });
         //List view
         populateListView();
+
         registerForContextMenu(budgetListView);
 
         budgetListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
@@ -102,6 +103,11 @@ public class lab13 extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    public String setTextofTextView(View view, int id){
+        TextView textViewid = view.findViewById(id);
+        return textViewid.getText().toString();
     }
 
     private void btnUpdateclick() {
@@ -121,12 +127,6 @@ public class lab13 extends AppCompatActivity {
             populateListView();
         }
     }
-
-    public String setTextofTextView(View view, int id){
-        TextView textViewid = view.findViewById(id);
-        return textViewid.getText().toString();
-    }
-
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
@@ -187,7 +187,6 @@ public class lab13 extends AppCompatActivity {
             toastMessage("Алдаа гарлаа");
         }
     }
-
 
     private void toastMessage(String message){
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
